@@ -5,7 +5,7 @@ import java.util.Objects;
 
 public class User implements Serializable {
 	
-	
+	/*
 	private static final long serialVersionUID = 1L;
 	private Long id;
 	private String nome;
@@ -52,7 +52,7 @@ public class User implements Serializable {
 	}
 	public void setPassword(String password) {
 		this.password = password;
-	}
+	}*/
 	@Override
 	public int hashCode() {
 		return Objects.hash(id);
